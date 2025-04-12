@@ -1,0 +1,60 @@
+
+🧠 Unsupervised Learning – Full Theory
+📌 Definition:
+Unsupervised learning is a type of machine learning where the model learns patterns from unlabeled data. It means the data doesn't have output labels — the system tries to find hidden structures or relationships within the input data.
+
+🧩 Key Objective:
+To discover patterns, groupings, or data distributions without knowing the correct answers (labels).
+
+🔍 How it works:
+The algorithm looks at input features only.
+
+It identifies clusters, associations, or dimensionality reductions.
+
+No human intervention for data labeling is required.
+
+✳️ Popular Algorithms:
+1. Clustering
+Used to group similar data points into clusters.
+
+K-Means Clustering
+
+Partitions data into K clusters based on distance (e.g., Euclidean).
+
+Iteratively refines cluster centers (centroids).
+
+Hierarchical Clustering
+
+Builds a tree (dendrogram) of clusters.
+
+Two types: Agglomerative (bottom-up), Divisive (top-down).
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+
+Groups data based on density of points.
+
+Works well with irregular shapes and noise.
+
+2. Dimensionality Reduction
+Used to reduce the number of features in the dataset while preserving important information.
+
+PCA (Principal Component Analysis)
+
+Projects data onto new axes (principal components).
+
+Keeps the directions with the most variance.
+
+t-SNE (t-distributed Stochastic Neighbor Embedding)
+
+Used for visualizing high-dimensional data in 2D/3D.
+
+3. Association Rule Learning
+Used to discover relationships (associations) between variables in large datasets.
+
+Apriori Algorithm
+
+Finds frequent itemsets in transactional data (e.g., market basket analysis).
+
+ECLAT Algorithm
+
+Faster than Apriori using vertical data representation.
